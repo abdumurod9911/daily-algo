@@ -194,4 +194,29 @@ function checkEquality(a, b) {
 	  }
   }
 
-  
+//   16.01.2023
+// 31.Profitable Gamble
+function profitableGamble(prob, prize, pay) {
+	if (prob*prize>pay) {
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+// 32.Boolean to String Conversion
+function boolToString(flag) {
+	return flag.toString();
+}
+
+// 33.Using Arrow Functions
+// create your arrow function below
+arrowFunc = (number) => {
+	return number;
+}
+
+
+// 34.Frames Per Second
+function frames(minutes, fps) {
+	return (minutes * 60) * fps
+}
