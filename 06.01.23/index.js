@@ -220,3 +220,36 @@ arrowFunc = (number) => {
 function frames(minutes, fps) {
 	return (minutes * 60) * fps
 }
+
+// 17.01.2023
+// 35.Miserable Parody of a Calculator
+function calculator(str) {
+return eval(str);
+}
+
+// 36.Two Makes Ten
+function makesTen(a, b) {
+if(a==10 || b==10 || (a+b)==10){
+	return true
+}else{
+	return false;
+}
+}
+
+// 37.Let's Fuel Up!
+function calculateFuel(n) {
+	if(n*10 >100 ){
+		return n*10;
+	}else{
+		return 100;
+	}
+}
+
+// 38.Buggy Code (Part 2)
+function maxNum(n1,n2) {
+	if (n1>n2){
+	  return n1;
+	}else{
+	return n2;
+  }
+}
