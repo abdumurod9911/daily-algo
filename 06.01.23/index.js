@@ -253,3 +253,84 @@ function maxNum(n1,n2) {
 	return n2;
   }
 }
+
+// 18.01.2023
+// 39.Pair Management
+function makePair(num1, num2) {
+	return [num1, num2]
+}
+
+// 40.Compare Strings by Count of Characters
+function comp(str1, str2) {
+	return str1.length == str2.length;
+}
+
+// 41.Is the String Empty?
+function isEmpty(s) {
+	if(s.length === 0){
+		return true
+	}else{
+		return false
+	}
+}
+
+// 42.Check if an Integer is Divisible By Five
+function divisibleByFive(n) {
+	if( n % 5 === 0 ){
+		return true
+	}else{
+		return false
+	}
+}
+
+// 19.01.2023
+// 43.Multiple of 100
+function divisible(num) {
+	if(num % 100 === 0){
+		return true
+	}else{
+		return false
+	}
+}
+
+// 44.Recursion: Length of a String
+function length(str) {
+	return str.length
+}
+
+// 45.Divides Evenly
+function dividesEvenly(a, b) {
+	return	Number.isInteger(a/b)
+	}
+
+// 46.Return a String as an Integer
+
+function stringInt(str) {
+	return Number(str);
+}
+
+// 20.01.2023
+// 47.Area of a Rectangle
+function area(h, w) {
+	if(h && w>0){
+		return h*w
+	}else{
+		return -1;
+	}
+}
+
+// 48.Concatenate First and Last Name into One String
+function concatName(firstName, lastName) {
+	return lastName.concat(', ', firstName)
+}
+
+// 49.Evaluate an Equation
+function eq(evaluate) {
+	return eval(evaluate)
+}
+
+// 50.Solve the Equation
+
+function equation(s) {
+	return eval(s);
+}
